@@ -1,0 +1,24 @@
+Comandos importantes do Git
+git status => mostra os arquivos modificações
+git diff => exibe todas as modificações feitas no código
+gitk => exibe de forma gráfica todas as modificações feitas no código
+git --list  => lista todas as branchs criadas localmente
+git branch => mostra todas as branchs
+git checkout + nome da branch => vai para a branch indicada
+git checkout -- . => desfaz todas as modificações feitas antes de fazer o git add.
+git reset - para excluir o que foi feito no git add . e refazer se quiser, as modificações
+git add . => adiciona todas as modificações e prepara para o commit
+git commit -a -m => faz o commit já sem necessidade de dar um add . antes
+git commit -m "inserir uma mensagem descritiva sobre a modificações que está sendo commitada"
+git switch + nome da branch => transitar entre as branchs
+git checkout -b "nomeNovaBranch" => cria nova branch no projeto atual
+git push origin nomedabranchatual => fazendo o merge para a branch atual
+git branch -D nome-da-branch >>>EXCLUINDO BRANCH LOCALMENTE 
+git push origin --delete <nome-da-branch> >>>EXCLUINDO BRANCH REMOTAMENTE
+git reset --hard HEAD~1 => resetando um commit
+git stash => guarda as modificaç~eso realizadas para serem utilizadas depois
+git stash list -> lista o que foi guardado
+git stash pop (numero de referencia na lista) => vai acessar novamente as modificações guardadas
+git config core.sparseCheckout false => desativando sparseChekout
+git config core.sparseCheckout true => ativando sparseCheckout
+git read-tree -mu HEAD => carrega o que esta no arquivo sparse-checkout
