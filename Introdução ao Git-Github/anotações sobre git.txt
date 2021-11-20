@@ -10,7 +10,7 @@ git reset - para excluir o que foi feito no git add . e refazer se quiser, as mo
 git add . => adiciona todas as modificações e prepara para o commit
 git commit -a -m => faz o commit já sem necessidade de dar um add . antes
 git commit -m "inserir uma mensagem descritiva sobre a modificações que está sendo commitada"
-git switch + nome da branch => transitar entre as branchs
+git switch + nome da branch => transitar entre as branchs  
 git checkout -b "nomeNovaBranch" => cria nova branch no projeto atual
 git push origin nomedabranchatual => fazendo o merge para a branch atual
 git branch -D nome-da-branch >>>EXCLUINDO BRANCH LOCALMENTE 
